@@ -1,7 +1,6 @@
 *.class
 *.log
 .cache
-/.idea
 .history
 .lib/
 dist/*
@@ -14,3 +13,4 @@ project/plugins/project/
 .worksheet
 /target
 .idea
+

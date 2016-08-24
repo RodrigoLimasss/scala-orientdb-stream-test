@@ -1,3 +1,3 @@
-## 'scala-project-example' it is the best structure pattern to initiate a new project in Scala. ##
+# scala-orientdb-stream-test
+A project to test the OrientDB Scala Stream library. 
 
-Scala: 2.11.7
