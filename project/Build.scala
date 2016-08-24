@@ -3,15 +3,15 @@ import sbt._
 
 object CustomBuild extends Build {
 
-  val NamePrefix = "com.scala.project.example"
+  val NamePrefix = "scala.orientdb.stream.test"
 
   name := NamePrefix + "."
 
   lazy val wrapper = Project(
-    id = "myModule",
-    base = file("myModule")
+    id = "orientdb-service",
+    base = file("orientdb-service")
   ).settings(Common.settings: _*)
-    .settings(mainClass in Compile := Some("myModule.Main"))
+    .settings(mainClass in Compile := Some("orientdb-service.Main"))
     .settings(libraryDependencies ++= Dependencies.streamingDependencies)
 
   fork in run := true
