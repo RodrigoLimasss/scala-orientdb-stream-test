@@ -14,7 +14,7 @@ import scala.util.{Failure, Success}
 
 object Main {
 
-  private val uri: String = "remote:10.152.20.212/StoneFraudDetection"
+  private val uri: String = "remote:localhost/DataBaseName"
 
   def main(args: Array[String]) {
 
